@@ -16,7 +16,6 @@ export default function ToothLogo() {
     <Link href="/" className="block" aria-label="tooth-logo-landing-page">
       <div className={`${lusitana.className} flex flex-row items-center leading-none text-black`}>
         <App />
-        <p className="text-[44px] align-bottom">Clinica Nuyad</p>
       </div>
     </Link>
   );

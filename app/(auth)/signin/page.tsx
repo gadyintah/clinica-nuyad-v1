@@ -3,11 +3,13 @@ export const metadata = {
   description: 'Page description',
 }
 
-import Link from 'next/link'
+import Link from 'next/link';
+import Header from '@/components/ui/header';
 
 export default function SignIn() {
   return (
     <section className="bg-gradient-to-b from-gray-100 to-white">
+      <Header />
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
@@ -29,7 +31,7 @@ export default function SignIn() {
                 <div className="w-full px-3">
                   <div className="flex justify-between">
                     <label className="block text-gray-800 text-sm font-medium mb-1" htmlFor="password">Password</label>
-                    <Link href="/reset-password" className="text-sm font-medium text-blue-600 hover:underline">Having trouble signing in?</Link>
+                    {/* <Link href="/reset-password" className="text-sm font-medium text-blue-600 hover:underline">Having trouble signing in?</Link> */}
                   </div>
                   <input id="password" type="password" className="form-input w-full text-gray-800" placeholder="Enter your password" required />
                 </div>
