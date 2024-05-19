@@ -7,6 +7,8 @@ import Logo from './logo'
 import Dropdown from '@/components/utils/dropdown'
 import MobileMenu from './mobile-menu'
 
+import ToothLogo from './tooth-logo'
+
 export default function Header() {
 
   const [top, setTop] = useState<boolean>(true)
@@ -29,7 +31,7 @@ export default function Header() {
 
           {/* Site branding */}
           <div className="shrink-0 mr-4">
-            <Logo />
+            <ToothLogo />
           </div>
 
           {/* Desktop navigation */}
