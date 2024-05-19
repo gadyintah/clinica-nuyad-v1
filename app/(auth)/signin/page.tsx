@@ -13,7 +13,7 @@ export default function SignIn() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1">Welcome back. We exist to make entrepreneurism easier.</h1>
+            <h1 className="h1">Admin's Login</h1>
           </div>
 
           {/* Form */}
@@ -50,12 +50,12 @@ export default function SignIn() {
                 </div>
               </div>
             </form>
-            <div className="flex items-center my-6">
+            {/*<div className="flex items-center my-6">
               <div className="border-t border-gray-300 grow mr-3" aria-hidden="true"></div>
               <div className="text-gray-600 italic">Or</div>
               <div className="border-t border-gray-300 grow ml-3" aria-hidden="true"></div>
             </div>
-            <form>
+            <form> 
               <div className="flex flex-wrap -mx-3 mb-3">
                 <div className="w-full px-3">
                   <button className="btn px-0 text-white bg-gray-900 hover:bg-gray-800 w-full relative flex items-center">
@@ -76,10 +76,10 @@ export default function SignIn() {
                   </button>
                 </div>
               </div>
-            </form>
+            </form> 
             <div className="text-gray-600 text-center mt-6">
               Don't you have an account? <Link href="/signup" className="text-blue-600 hover:underline transition duration-150 ease-in-out">Sign up</Link>
-            </div>
+            </div>*/}
           </div>
 
         </div>

@@ -1,9 +1,10 @@
 export const metadata = {
-  title: 'Sign Up - Simple',
+  title: 'Sign Up',
   description: 'Page description',
 }
 
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function SignUp() {
   return (
@@ -11,13 +12,14 @@ export default function SignUp() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
-          {/* Page header */}
+           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1">Welcome. We exist to make entrepreneurism easier.</h1>
+            <h1 className="h1">Under Development</h1>
+            <Image src={'/images/under-construction.jpg'} width={1920} height={1080} alt='under-construction' />
           </div>
 
           {/* Form */}
-          <div className="max-w-sm mx-auto">
+          {/*<div className="max-w-sm mx-auto">
             <form>
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
@@ -76,9 +78,9 @@ export default function SignUp() {
             <div className="text-gray-600 text-center mt-6">
               Already using Simple? <Link href="/signin" className="text-blue-600 hover:underline transition duration-150 ease-in-out">Sign in</Link>
             </div>
-          </div>
+          </div>*/}
 
-        </div>
+        </div> 
       </div>
     </section>
   )
