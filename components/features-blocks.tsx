@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function FeaturesBlocks() {
   return (
     <section className="relative">
@@ -18,42 +20,46 @@ export default function FeaturesBlocks() {
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-5 items-start md:max-w-2xl lg:max-w-none">
             {/* 1st item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full">
-              <div className="absolute inset-0 bg-black opacity-75 rounded" style={{ backgroundImage: "url('/images/teeth-whitening.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
-              <div className="relative z-10 flex flex-col items-center">
-                <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                  <g fill="none" fillRule="evenodd">
-                    <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
-                    <g strokeWidth="2">
-                      <path className="stroke-current text-blue-300" d="M34.514 35.429l2.057 2.285h8M20.571 26.286h5.715l2.057 2.285" />
-                      <path className="stroke-current text-white" d="M20.571 37.714h5.715L36.57 26.286h8" />
-                      <path className="stroke-current text-blue-300" strokeLinecap="square" d="M41.143 34.286l3.428 3.428-3.428 3.429" />
-                      <path className="stroke-current text-white" strokeLinecap="square" d="M41.143 29.714l3.428-3.428-3.428-3.429" />
+            <Link href="/services/service1" className="block" aria-label="Oral Prophylaxis and Teeth Whitening">
+              <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full">
+                <div className="absolute inset-0 bg-black opacity-75 rounded" style={{ backgroundImage: "url('/images/teeth-whitening.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
+                <div className="relative z-10 flex flex-col items-center">
+                  <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="none" fillRule="evenodd">
+                      <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
+                      <g strokeWidth="2">
+                        <path className="stroke-current text-blue-300" d="M34.514 35.429l2.057 2.285h8M20.571 26.286h5.715l2.057 2.285" />
+                        <path className="stroke-current text-white" d="M20.571 37.714h5.715L36.57 26.286h8" />
+                        <path className="stroke-current text-blue-300" strokeLinecap="square" d="M41.143 34.286l3.428 3.428-3.428 3.429" />
+                        <path className="stroke-current text-white" strokeLinecap="square" d="M41.143 29.714l3.428-3.428-3.428-3.429" />
+                      </g>
                     </g>
-                  </g>
-                </svg>
-                <h4 className="text-xl text-center font-bold leading-snug tracking-tight mb-1 bg-gray-100/50">Oral Prophylaxis and Teeth Whitening</h4>
+                  </svg>
+                  <h4 className="text-xl text-center font-bold leading-snug tracking-tight mb-1 bg-gray-100/50">Oral Prophylaxis and Teeth Whitening</h4>
+                </div>
               </div>
-            </div>
+            </Link>
 
             {/* 2st item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full">
-              <div className="absolute inset-0 bg-black opacity-75 rounded" style={{ backgroundImage: "url('/images/ortho-consultation.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
-              <div className="relative z-10 flex flex-col items-center">
-                <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                  <g fill="none" fillRule="evenodd">
-                    <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
-                    <g strokeWidth="2">
-                      <path className="stroke-current text-blue-300" d="M34.514 35.429l2.057 2.285h8M20.571 26.286h5.715l2.057 2.285" />
-                      <path className="stroke-current text-white" d="M20.571 37.714h5.715L36.57 26.286h8" />
-                      <path className="stroke-current text-blue-300" strokeLinecap="square" d="M41.143 34.286l3.428 3.428-3.428 3.429" />
-                      <path className="stroke-current text-white" strokeLinecap="square" d="M41.143 29.714l3.428-3.428-3.428-3.429" />
+            <Link href="/services/service2" className="block" aria-label="Dental Check-Up and Ortho Consultation">
+              <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full">
+                <div className="absolute inset-0 bg-black opacity-75 rounded" style={{ backgroundImage: "url('/images/ortho-consultation.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
+                <div className="relative z-10 flex flex-col items-center">
+                  <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="none" fillRule="evenodd">
+                      <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
+                      <g strokeWidth="2">
+                        <path className="stroke-current text-blue-300" d="M34.514 35.429l2.057 2.285h8M20.571 26.286h5.715l2.057 2.285" />
+                        <path className="stroke-current text-white" d="M20.571 37.714h5.715L36.57 26.286h8" />
+                        <path className="stroke-current text-blue-300" strokeLinecap="square" d="M41.143 34.286l3.428 3.428-3.428 3.429" />
+                        <path className="stroke-current text-white" strokeLinecap="square" d="M41.143 29.714l3.428-3.428-3.428-3.429" />
+                      </g>
                     </g>
-                  </g>
-                </svg>
-                <h4 className="text-xl text-center font-bold leading-snug tracking-tight mb-1 bg-gray-100/50">Dental Check-Up and Ortho Consultation</h4>
+                  </svg>
+                  <h4 className="text-xl text-center font-bold leading-snug tracking-tight mb-1 bg-gray-100/50">Dental Check-Up and Ortho Consultation</h4>
+                </div>
               </div>
-            </div>
+            </Link>
 
 
             {/* 3st item */}
