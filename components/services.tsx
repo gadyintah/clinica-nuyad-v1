@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Services() {
   return (
-    <section className="relative">
+    <section id="services" className="relative">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-gray-900 pointer-events-none" aria-hidden="true"></div>
