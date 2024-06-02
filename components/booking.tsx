@@ -1,4 +1,4 @@
-export default function Newsletter() {
+export default function Booking() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-24">

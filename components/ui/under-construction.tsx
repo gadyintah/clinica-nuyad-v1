@@ -10,7 +10,7 @@ export default function UnderConstruction() {
     
                 {/* Page header */}
                 <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                <h1 className="h1">Under Development</h1>
+                <h1 className="h1">This Webpage is currently</h1>
                 <Image src={'/images/under-construction.jpg'} width={1920} height={1080} alt='under-construction' />
                 </div>
             </div> 
